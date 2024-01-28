@@ -56,7 +56,8 @@ nav a{
     justify-content: space-between;
 }
 .banner .profile{
-    width: 400px;
+    width: 500px;
+    padding-right: 50px;
 }
 .banner-greeting{
 font-size: 45px;
@@ -96,4 +97,28 @@ text-align: center;
 font-size: 18px;
 font-weight: 400;
 line-height: 30px;
+}
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.about-info-container{
+display: flex;
+justify-content: space-around;
+}
+.about-info{
+
+}
+.info-title{
+    color: #757575;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.info-description{
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
 }
