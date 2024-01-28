@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600;700;800&display=swap');
 
+/* google font  */
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+/* header section style start here...  */
 
 .text-primary {
     color: #FD6E0A;
@@ -89,6 +93,8 @@ nav a {
     line-height: 30px;
 }
 
+/* about section style start here...  */
+
 .about {
     padding: 130px;
     background-color: #FFF8F3;
@@ -144,6 +150,8 @@ main section {
     font-weight: 400;
     line-height: 30px;
 }
+
+/* what i do section style start here...   */
 
 #what-i-do-description {
     padding: 30px 150px;
@@ -223,6 +231,8 @@ main section {
     text-align: center;
 }
 
+/* footer section style start here...  */
+
 footer {
     display: flex;
     background: #FFF8F3;
@@ -248,5 +258,3 @@ textarea {
     background-color: #FFF;
     width: 100%;
 }
-
-.contact input
