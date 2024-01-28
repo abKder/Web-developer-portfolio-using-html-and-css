@@ -13,8 +13,6 @@ body {
     color: #181818;
     font-size: 45px;
     font-weight: 800;
-
-
 }
 
 .but-primary {
@@ -50,7 +48,6 @@ nav>ul {
 nav li {
     list-style: none;
     margin-right: 50px;
-
 }
 
 nav a {
@@ -173,7 +170,6 @@ main section {
 }
 
 .skill-description {
-    width: 201px;
     color: #757575;
     font-size: 16px;
     font-style: normal;
@@ -181,10 +177,14 @@ main section {
     line-height: 28px;
 }
 
+.resume {
+    padding: 130px;
+    margin: 130px;
+}
+
 .resume-container {
     display: flex;
-    /* gap: 50px; */
-    justify-content: space-between;
+    gap: 50px;
 }
 
 .resume-colum-title {
@@ -212,13 +212,41 @@ main section {
     color: #757575;
     font-size: 16px;
     font-weight: 400;
-    width: 600px;
 }
 
 .resume-container hr {
     margin: 30px;
 }
-.Download-cv{
+
+.Download-cv {
     margin-top: 50px;
     text-align: center;
 }
+
+footer {
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 100px;
+    gap: 100px;
+}
+
+.footer-colum {
+    width: 50%;
+}
+
+.contact input[type='text'],
+.contact input[type='email'],
+textarea {
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 35px;
+    font-size: 16px;
+    color: #757575;
+    border-radius: 5px;
+    border: 0;
+    background-color: #FFF;
+    width: 100%;
+}
+
+.contact input
